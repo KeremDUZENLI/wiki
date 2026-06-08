@@ -20,8 +20,8 @@
 - [Linux Arch Modify](https://github.com/KeremDUZENLI/0/wiki/Linux_Arch_Modify)
 - [Linux Arch Programs](https://github.com/KeremDUZENLI/0/wiki/Linux_Arch_Programs)
 - [Linux Arch Server](https://github.com/KeremDUZENLI/0/wiki/Linux_Arch_Server)
-- [Linux Arch Tips](https://github.com/KeremDUZENLI/0/wiki/Linux_Arch_Tips)
 #####
+- [Linux Arch Tips](https://github.com/KeremDUZENLI/0/wiki/Linux_Arch_Tips)
 - [Linux Ubuntu Tips](https://github.com/KeremDUZENLI/0/wiki/Linux_Ubuntu_Tips)
 #####
 - [Sony PS3 CFW](https://github.com/KeremDUZENLI/0/wiki/Sony_PS3_CFW)
