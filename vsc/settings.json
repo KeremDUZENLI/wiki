@@ -22,7 +22,7 @@
   "files.watcherExclude": {
     "**/.git/**": true,
     "**/node_modules/**": true,
-    "**/__pycache__/**": true,
+    "**/__pycache__/**": true
   },
 
   "liveServer.settings.donotVerifyTags": true,
@@ -40,7 +40,7 @@
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": false,
     "editor.formatOnPaste": false,
-    "editor.formatOnType": false,
+    "editor.formatOnType": false
   },
 
   "go.formatTool": "goimports",
@@ -50,7 +50,7 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.insertSpaces": true,
-    "editor.codeActionsOnSave": { "source.organizeImports": "explicit" },
+    "editor.codeActionsOnSave": { "source.organizeImports": "explicit" }
   },
 
   "editor.formatOnSave": true,
@@ -62,52 +62,52 @@
   "editor.quickSuggestions": {
     "other": true,
     "comments": true,
-    "strings": true,
+    "strings": true
   },
 
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": ["variable.other", "variable"],
-        "settings": { "foreground": "#0066CC" },
+        "settings": { "foreground": "#0066CC" }
       },
       {
         "scope": ["variable.parameter", "variable.parameter.function"],
-        "settings": { "foreground": "#007ACC" },
+        "settings": { "foreground": "#007ACC" }
       },
       {
         "scope": ["entity.name.function", "entity.name.method"],
-        "settings": { "foreground": "#B35C00", "fontStyle": "bold" },
+        "settings": { "foreground": "#B35C00", "fontStyle": "bold" }
       },
       {
         "scope": ["entity.name.type", "support.type"],
-        "settings": { "foreground": "#1E90FF" },
+        "settings": { "foreground": "#1E90FF" }
       },
       {
         "scope": ["constant.language", "constant.numeric"],
-        "settings": { "foreground": "#D16969" },
+        "settings": { "foreground": "#D16969" }
       },
       {
         "scope": ["constant.numeric", "constant.numeric.float"],
-        "settings": { "foreground": "#B20000" },
+        "settings": { "foreground": "#B20000" }
       },
       {
         "scope": ["keyword.control", "storage.type"],
-        "settings": { "foreground": "#00008B", "fontStyle": "bold" },
+        "settings": { "foreground": "#00008B", "fontStyle": "bold" }
       },
       {
         "scope": ["string.quoted", "string"],
-        "settings": { "foreground": "#008000" },
+        "settings": { "foreground": "#008000" }
       },
       {
         "scope": ["comment", "comment.line"],
-        "settings": { "foreground": "#6A9955", "fontStyle": "italic" },
+        "settings": { "foreground": "#6A9955", "fontStyle": "italic" }
       },
       {
         "scope": ["keyword.import", "entity.name.package"],
-        "settings": { "foreground": "#4B0082" },
-      },
-    ],
+        "settings": { "foreground": "#4B0082" }
+      }
+    ]
   },
 
   "editor.semanticHighlighting.enabled": true,
@@ -126,8 +126,8 @@
       "keyword": "#00008B",
       "string": "#008000",
       "number": "#B20000",
-      "comment": "#6A9955",
-    },
+      "comment": "#6A9955"
+    }
   },
 
   "settingsSync.ignoredSettings": ["-window.zoomLevel"],
@@ -136,5 +136,5 @@
 
   "extensions.autoCheckUpdates": true,
 
-  "keyboard.dispatch": "code",
+  "keyboard.dispatch": "code"
 }
