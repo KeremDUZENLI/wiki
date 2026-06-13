@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "Solarized Light",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
 
@@ -6,9 +7,11 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
 
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+
+  "github.copilot.enable": { "*": true },
+  "github.copilot.nextEditSuggestions.enabled": true,
 
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
@@ -16,39 +19,122 @@
 
   "files.exclude": { "**/__pycache__": true },
   "files.associations": { "*.py": "python" },
-
-  "debug.console.wordWrap": false,
-
-  "extensions.autoCheckUpdates": false,
-
-  "settingsSync.ignoredSettings": ["-window.zoomLevel"],
-
-  "security.workspace.trust.untrustedFiles": "open",
-
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/node_modules/**": true,
+    "**/__pycache__/**": true,
+  },
 
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
 
-  "notebook.defaultFormatter": "esbenp.prettier-vscode",
-  "notebook.formatOnSave.enabled": true,
+  "json.schemas": [],
+
+  "notebook.formatOnSave.enabled": false,
   "jupyter.enableExtendedPythonKernelCompletions": true,
 
   "python.languageServer": "Pylance",
-  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.createEnvironment.trigger": "off",
+  "python.terminal.activateEnvironment": true,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
   },
 
   "go.formatTool": "goimports",
+  "go.diagnostic.vulncheck": "Imports",
   "go.useLanguageServer": true,
   "go.toolsManagement.autoUpdate": true,
   "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.insertSpaces": true,
-    "editor.codeActionsOnSave": { "source.organizeImports": "explicit" }
+    "editor.codeActionsOnSave": { "source.organizeImports": "explicit" },
   },
 
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true,
+  },
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["variable.other", "variable"],
+        "settings": { "foreground": "#0066CC" },
+      },
+      {
+        "scope": ["variable.parameter", "variable.parameter.function"],
+        "settings": { "foreground": "#007ACC" },
+      },
+      {
+        "scope": ["entity.name.function", "entity.name.method"],
+        "settings": { "foreground": "#B35C00", "fontStyle": "bold" },
+      },
+      {
+        "scope": ["entity.name.type", "support.type"],
+        "settings": { "foreground": "#1E90FF" },
+      },
+      {
+        "scope": ["constant.language", "constant.numeric"],
+        "settings": { "foreground": "#D16969" },
+      },
+      {
+        "scope": ["constant.numeric", "constant.numeric.float"],
+        "settings": { "foreground": "#B20000" },
+      },
+      {
+        "scope": ["keyword.control", "storage.type"],
+        "settings": { "foreground": "#00008B", "fontStyle": "bold" },
+      },
+      {
+        "scope": ["string.quoted", "string"],
+        "settings": { "foreground": "#008000" },
+      },
+      {
+        "scope": ["comment", "comment.line"],
+        "settings": { "foreground": "#6A9955", "fontStyle": "italic" },
+      },
+      {
+        "scope": ["keyword.import", "entity.name.package"],
+        "settings": { "foreground": "#4B0082" },
+      },
+    ],
+  },
+
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "variable": "#0066CC",
+      "parameter": "#007ACC",
+      "function.declaration": "#B35C00",
+      "function": "#B35C00",
+      "method": "#B35C00",
+      "property": "#0B6E4F",
+      "namespace": "#4B0082",
+      "type": "#1E90FF",
+      "class": "#1E90FF",
+      "keyword": "#00008B",
+      "string": "#008000",
+      "number": "#B20000",
+      "comment": "#6A9955",
+    },
+  },
+
+  "settingsSync.ignoredSettings": ["-window.zoomLevel"],
+
+  "debug.console.wordWrap": false,
+
+  "extensions.autoCheckUpdates": true,
+
+  "keyboard.dispatch": "code",
 }
