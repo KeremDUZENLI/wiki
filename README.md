@@ -28,6 +28,8 @@
 - [Sony PS3 Settings](https://github.com/KeremDUZENLI/0/wiki/Sony_PS3_Settings)
 - [Sony PS3 Tips](https://github.com/KeremDUZENLI/0/wiki/Sony_PS3_Tips)
 #####
+- [Sync](https://github.com/KeremDUZENLI/0/wiki/Sync)
+#####
 - [Windows Tips](https://github.com/KeremDUZENLI/0/wiki/Windows_Tips)
 
 ---
