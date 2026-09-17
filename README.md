@@ -7,19 +7,9 @@
 
 ---
 
-## 📚 Wiki Documentations
-
-- [Home](https://github.com/KeremDUZENLI/0/wiki)
-#####
-...
+https://github.com/KeremDUZENLI/wiki/wiki
 
 ---
-
-## 📖 Clone the Wiki
-
-```bash
-git clone https://github.com/KeremDUZENLI/0.wiki.git
-```
 
 ## ☕️ Support My Work
 <div align="center" style="display: block">
